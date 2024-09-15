@@ -1,1 +1,1 @@
-# goexpert-golang
+# fullcycle-go-expert
