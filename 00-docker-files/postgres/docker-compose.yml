@@ -1,0 +1,14 @@
+version: '3'
+
+services:  
+  postgres:
+    image: postgres:12.5-alpine
+    container_name: postgres
+    hostname: postgres
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_HOST_AUTH_METHOD=trust
+      - POSTGRES_USER=root
+      - POSTGRES_PASSWORD=root
+      - POSTGRES_DB=dbname
